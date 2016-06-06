@@ -1,0 +1,32 @@
+{
+  "name": "tinyflights",
+  "version": "1.0.0",
+  "description": "This application is meant to be used by Brandon & Tim.",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "method-override": "^2.3.5",
+    "morgan": "^1.7.0",
+    "passport": "^0.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "n/a",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n/a.git"
+  },
+  "keywords": [
+    "n/a"
+  ],
+  "author": "Brandon Robinson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/n/a/issues"
+  },
+  "homepage": "https://github.com/n/a#readme"
+}

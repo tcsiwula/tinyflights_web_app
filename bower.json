@@ -1,0 +1,19 @@
+{
+  "name": "tinyflights",
+  "version": "1.0.0",
+  "dependencies": {
+    "angular": "^1.5.5",
+    "angular-route": "^1.5.5"
+  },
+  "description": "This app is meant to be used by Brandon & Tim.",
+  "main": "server.js",
+  "keywords": [
+    "n/a"
+  ],
+  "authors": [
+    "Brandon Robinson"
+  ],
+  "license": "MIT",
+  "homepage": "n/a",
+  "private": true
+}
