@@ -44,6 +44,10 @@
 }
 
 .option {
-	border: 2px solid red;
-	height: 200px;
+/*	border: 3px solid black;*/
+	height: 400px;
 }
+
+/*.safe_img {
+	height: 100px;
+}*/
