@@ -1,0 +1,15 @@
+#header-container {
+	padding: 5px;
+}
+
+#banner {
+	height: 600px;
+	background-image: url("/img/mountain1.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#banner-text h1 {
+	text-align: center;
+	color: black;
+}
