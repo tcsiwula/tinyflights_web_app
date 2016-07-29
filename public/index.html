@@ -1,47 +1,128 @@
-<html>
-  
-<!-- Mirrored from a2gtm.herokuapp.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 08 Jun 2016 02:13:41 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <base >
-    <title>Generic Task Manager</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles.css">
-    <!-- 1. Load libraries -->
-    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
-    <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-    <script src="../../../websites/angular2_trello/a2gtm.herokuapp.com/jquery.ui.touch-punch.js"></script>
-    <script src="../../../websites/angular2_trello/a2gtm.herokuapp.com/node_modules/socket.io-client/socket.io.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
 
-    <!-- IE required polyfills, in this exact order -->
-    <script src="../../../websites/angular2_trello/a2gtm.herokuapp.com/node_modules/es6-shim/es6-shim.min.js"></script>
-    <script src="../../../websites/angular2_trello/a2gtm.herokuapp.com/node_modules/angular2/es6/dev/src/testing/shims_for_IE.js"></script>
+    <title>Album example for Bootstrap</title>
 
-    <script src="../../../websites/angular2_trello/a2gtm.herokuapp.com/node_modules/angular2/bundles/angular2-polyfills.js"></script>
-    <script src="../../../websites/angular2_trello/a2gtm.herokuapp.com/node_modules/systemjs/dist/system.src.js"></script>
-    <script src="../../../websites/angular2_trello/a2gtm.herokuapp.com/node_modules/rxjs/bundles/Rx.js"></script>
-    <script src="../../../websites/angular2_trello/a2gtm.herokuapp.com/node_modules/angular2/bundles/angular2.dev.js"></script>
-    <script src="../../../websites/angular2_trello/a2gtm.herokuapp.com/node_modules/angular2/bundles/http.dev.js"></script>
-    <script src="../../../websites/angular2_trello/a2gtm.herokuapp.com/node_modules/angular2/bundles/router.dev.js"></script>
-    
-     <!-- 2. Configure SystemJS -->
-    <script>
-      System.config({
-        packages: {
-          app: {
-            format: 'register',
-            defaultExtension: 'js'
-          }
-        }
-      });
-      System.import('app/main')
-            .then(null, console.error.bind(console));
-    </script>
-  </head>
-  <!-- 3. Display the application -->
-  <body>
-    <gtm-app></gtm-app>
-  </body>
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
 
-<!-- Mirrored from a2gtm.herokuapp.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 08 Jun 2016 02:14:15 GMT -->
+    <!-- Custom styles for this template -->
+    <link href="album.css" rel="stylesheet">
+</head>
+
+<body>
+
+<nav class="navbar navbar-dark bg-inverse" id="nav-main">
+
+    <a class="navbar-brand" href="#">TinyFlights</a>
+
+
+    <ul class="nav navbar-nav pull-xs-right">
+
+        <li class="nav-item active">
+            <a class="nav-link" href="#">Become a Partner<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Help</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Sign Up</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Login</a>
+        </li>
+    </ul>
+</nav>
+
+<section class="jumbotron text-xs-center">
+    <div class="container">
+        <h1 class="jumbotron-heading">Flights and Airline tickets reinvented.</h1>
+        <p class="lead text-muted">Book flights from local pilots and fly to a place like never before.</p>
+        <p>
+            <a href="#" class="btn btn-primary">Search flights</a>
+            <a href="#" class="btn btn-secondary">Post a flight</a>
+        </p>
+    </div>
+</section>
+
+<div class="album text-muted">
+    <div class="container">
+
+        <div class="row">
+            <div class="card">
+                <img data-src="holder.js/100px280/thumb" alt="Card image cap">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            <div class="card">
+                <img data-src="holder.js/100px280/thumb" alt="Card image cap">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            <div class="card">
+                <img data-src="holder.js/100px280/thumb" alt="Card image cap">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+
+            <div class="card">
+                <img data-src="holder.js/100px280/thumb" alt="Card image cap">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            <div class="card">
+                <img data-src="holder.js/100px280/thumb" alt="Card image cap">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            <div class="card">
+                <img data-src="holder.js/100px280/thumb" alt="Card image cap">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+
+            <div class="card">
+                <img data-src="holder.js/100px280/thumb" alt="Card image cap">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            <div class="card">
+                <img data-src="holder.js/100px280/thumb" alt="Card image cap">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            <div class="card">
+                <img data-src="holder.js/100px280/thumb" alt="Card image cap">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<footer class="text-muted">
+    <div class="container">
+        <p class="pull-xs-right">
+            <a href="#">Back to top</a>
+        </p>
+        <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
+        <p>New to Bootstrap? <a href="../../">Visit the homepage</a> or read our <a href="../../getting-started/">getting started guide</a>.</p>
+    </div>
+</footer>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+<script src="../../assets/js/vendor/holder.min.js"></script>
+<script>
+    $(function () {
+        Holder.addTheme("thumb", { background: "#55595c", foreground: "#eceeef", text: "Thumbnail" });
+    });
+</script>
+<script src="../../dist/js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
 </html>
