@@ -1,0 +1,5 @@
+*.idea
+*.DS_Store
+back_end/
+database/
+node_modules/.DS_Store
