@@ -10,7 +10,7 @@ var mainApplicationModule = angular.module(mainApplicationModuleName, ['ngRoute'
 // Configure the hashbang URLs using the $locationProvider services 
 mainApplicationModule.config(['$locationProvider',
 	function($locationProvider) {
-		$locationProvider.hashPrefix('!');
+		$locationProvider.hashPrefix('');
 	}
 ]);
 

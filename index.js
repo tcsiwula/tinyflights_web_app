@@ -3,6 +3,16 @@ var express = require('./config/express'),
 	open = require('open'),
 	app = express();
 
+
+
+// Bootstrap and css logic
+var path = require('path')
+var fs  = require('fs');
+var serveIndex = require('serve-index');
+app.use(serveIndex(__dirname + '/public'))
+
+
+
 // Heroku logic
 app.listen(process.env.PORT || 5000, function()
 {
