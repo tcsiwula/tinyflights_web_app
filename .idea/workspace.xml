@@ -1,145 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c238480-a757-4071-b463-0410f9668b92" name="Default" comment="Created a nav bar modeled of of airbnb.com using bootstrap4">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/application_xp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/application_xp_terminal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/box.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/cd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/controller.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/drive.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/film.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/folder.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/font.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/map.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_add.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_attach.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_code.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_copy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_delete.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_edit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_error.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_excel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_find.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_gear.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_go.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_green.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_key.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_lightning.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_link.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_paintbrush.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_paste.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_refresh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_save.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_acrobat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_actionscript.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_add.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_camera.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_cd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_code.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_code_red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_coldfusion.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_compressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_copy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_cplusplus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_csharp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_cup.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_database.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_delete.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_dvd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_edit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_error.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_excel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_find.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_flash.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_freehand.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_gear.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_get.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_go.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_h.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_horizontal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_key.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_lightning.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_link.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_magnify.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_medal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_office.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_paint.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_paintbrush.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_paste.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_php.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_picture.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_powerpoint.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_put.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_ruby.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_stack.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_star.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_swoosh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_text.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_text_width.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_tux.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_vector.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_visualstudio.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_width.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_word.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_world.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_wrench.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_zip.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_word.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_world.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Procfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/batch/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/batch/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/batch/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/batch/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/batch/component.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/batch/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/batch/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/HISTORY.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/node_modules/accepts/HISTORY.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/node_modules/accepts/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/node_modules/accepts/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/node_modules/accepts/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/node_modules/accepts/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/node_modules/http-errors/HISTORY.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/node_modules/http-errors/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/node_modules/http-errors/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/node_modules/http-errors/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/node_modules/http-errors/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/node_modules/negotiator/HISTORY.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/node_modules/negotiator/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/node_modules/negotiator/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/node_modules/negotiator/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/node_modules/negotiator/lib/charset.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/node_modules/negotiator/lib/encoding.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/node_modules/negotiator/lib/language.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/node_modules/negotiator/lib/mediaType.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/node_modules/negotiator/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/node_modules/statuses/HISTORY.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/node_modules/statuses/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/node_modules/statuses/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/node_modules/statuses/codes.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/node_modules/statuses/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/node_modules/statuses/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/directory.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/serve-index/public/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/setprototypeof/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/setprototypeof/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/setprototypeof/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/setprototypeof/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+    <list default="true" id="2c238480-a757-4071-b463-0410f9668b92" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="tiny-flights.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -240,6 +103,8 @@
         <option value="Tim Siwula" />
       </list>
     </option>
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -362,6 +227,8 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="prop_add_unversioned_files" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -463,7 +330,7 @@
       <workItem from="1469760229685" duration="323000" />
       <workItem from="1470254234420" duration="478000" />
       <workItem from="1470281336774" duration="3094000" />
-      <workItem from="1470284716510" duration="558000" />
+      <workItem from="1470284716510" duration="626000" />
     </task>
     <task id="LOCAL-00001" summary="test commit file">
       <created>1465338218508</created>
@@ -528,11 +395,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469759065537</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="hope this fixes the heroku app down bug">
+      <created>1470285306649</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1470285306649</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13739000" />
+    <option name="totallyTimeSpent" value="13807000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="805" extended-state="6" />
@@ -578,7 +452,8 @@
     <MESSAGE value="created hello world files for bootstrap and react" />
     <MESSAGE value="fixed heroku Procfile bug -- heroku ps:scale web=1 --app eroku-tiny-flights-app&#10;per: http://blog.anthonyringoet.be/heroku-no-web-processes-running/&#10;" />
     <MESSAGE value="Created a nav bar modeled of of airbnb.com using bootstrap4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a nav bar modeled of of airbnb.com using bootstrap4" />
+    <MESSAGE value="hope this fixes the heroku app down bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="hope this fixes the heroku app down bug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
