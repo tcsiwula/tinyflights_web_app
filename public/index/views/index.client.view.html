@@ -1,89 +1,145 @@
-<link rel="stylesheet" type="text/css" href="/css/index.css">
-<div class"container-fluid">
-	<div class="outer-container">
-		<div class="row" id="header-container">
-			<div class="col-md-2">
-				<img src="/img/tinyflights_logo.svg">
-			</div>
-			<div class="col-md-10" id="sign-in-sign-out" align="right">
-				<a href="/signin">Log In</a>
-				<a href="/signup">Register</a>
-			</div>
-		</div>
-		<div class="row" id="banner-container">
-			<div class="col-md-12" id="banner">
-				<div class="row">
-					<div class="col-md-4"><!-- Blank -->
-					</div>
-					<div class="col-md-4" id="banner-text" align="center">
-						<h1>Get ready to fly on your time.</h1>
-					</div>
-					<div class="col-md-4"><!-- Blank -->
-					</div>
-				</div>
-				<div class="row" id="button-outer-container">
-					<div class="col-md-4"><!-- Blank -->
-					</div>
-					<div class="col-md-4" id="button-inner-container" align="center"> <!-- style="border: 2px solid black" -->
-						<div class="row" id="buttons">
-							<div class="col-md-6" id="button">
-								<button type="submit" class="btn btn-success">Book Now! <span class="glyphicon glyphicon-calendar"></span></button>
-							</div>
-							<div class="col-md-6" id="button">
-								<button type="submit" class="btn btn-success">How it works</button>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4"><!-- Blank -->
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="row" id="how-it-works-outer-container">
-			<div class="col-md-12" id="how-it-works-inner-container">
-				<div class="row">
-					<div class="col-md-12" id="how-it-works-text" align="center">
-						<h2>How it works</h2>
-						<h5>Discover how and why Tiny Flights is the safest and most convienent way to fly.</h5>
-					</div>
-				</div>
-				<div class="row" id="how-it-works-options-container">
-					<div class="col-md-3 option">
-						<div class="row" id="safe_img" align="center">
-							<img src="/img/safe_logo.png">
-						</div>
-						<div class="row">
-							<div class="col-md-12">
-								<p>Safety is at the focus of what we do. All our pilots are professionally certified and are backed by thousands and thousands of hours.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 option">
-						<div class="row" id="cheap_img" align="center">
-							<img src="/img/cheap_logo.png">
-						</div>
-						<div class="row">
-							<div class="col-md-12">
-								<p>With high costs of commercial flying, Tiny Flights offers the most inexpensive way to travel longer distances</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 option">
-					</div>
-					<div class="col-md-3 option">
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="row" id="footer-container">
-		<div class="col-md-12" align="center">
-			<a>Contact us</a> <a>About us</a>
-		</div>
-		<div class="row" id="footer-text" align="center">
-			<div class="col-md-12">
-				<p>Tinyflights.com LLC</p>
-			</div>
-		</div>
-	</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+<!--     <link href="album.css" rel="stylesheet"> -->
+</head>
+
+<body>
+    <section id="sign-in-banner" align="right">   
+        <!-- Render the OAuth authentication links  -->
+        <a href="/oauth/facebook">Sign In with Facebook</a>
+        <!--
+  Below we include the Login Button social plugin. This button uses
+  the JavaScript SDK to present a graphical Login button that triggers
+  the FB.login() function when clicked.
+-->
+
+<!-- <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+</fb:login-button> -->
+        <a href="/logout">Log Out</a>
+    </section>
+
+
+<div id="status">
 </div>
+    </section>
+    <nav class="navbar navbar-dark bg-inverse" id="nav-main">
+
+        <a class="navbar-brand" href="/">TinyFlights</a>
+
+        <ul class="nav navbar-nav pull-xs-right">
+
+            <li class="nav-item active">
+                <a class="nav-link" href="/signuppartner">Become a Partner<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/signup">Sign Up</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/login">Login</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/logout">Logout</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="jumbotron text-xs-center">
+        <div class="container">
+            <h1 class="jumbotron-heading">Flights and Airline tickets reinvented.</h1>
+            <p class="lead text-muted">Book flights from local pilots and fly to a place like never before.</p>
+            <p>
+                <a href="#" class="btn btn-primary">Search flights</a>
+                <a href="#" class="btn btn-secondary">Post a flight</a>
+            </p>
+        </div>
+    </section>
+
+    <div class="album text-muted">
+        <div class="container">
+
+            <div class="row">
+                <div class="card">
+                    <img data-src="holder.js/100px280/thumb" alt="Card image cap">
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card">
+                    <img data-src="holder.js/100px280/thumb" alt="Card image cap">
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card">
+                    <img data-src="holder.js/100px280/thumb" alt="Card image cap">
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+
+                <div class="card">
+                    <img data-src="holder.js/100px280/thumb" alt="Card image cap">
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card">
+                    <img data-src="holder.js/100px280/thumb" alt="Card image cap">
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card">
+                    <img data-src="holder.js/100px280/thumb" alt="Card image cap">
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+
+                <div class="card">
+                    <img data-src="holder.js/100px280/thumb" alt="Card image cap">
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card">
+                    <img data-src="holder.js/100px280/thumb" alt="Card image cap">
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card">
+                    <img data-src="holder.js/100px280/thumb" alt="Card image cap">
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="text-muted">
+        <div class="container">
+            <p class="pull-xs-right">
+                <a href="#">Back to top</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+    <script>
+        $(function () {
+            Holder.addTheme("thumb", { background: "#55595c", foreground: "#eceeef", text: "Thumbnail" });
+        });
+    </script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+<!--     <script type="text/javascript">
+        document.getElementById("logout").onClick = function() {
+            location.href = "https://www.facebook.com/logout.php?next=http://localhost:3000&access_token=USER_ACCESS_TOKEN";
+        }
+    </script> -->
+    </body>
+</html>
