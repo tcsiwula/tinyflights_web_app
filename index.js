@@ -2,9 +2,10 @@
 // To run in development mode through console/terminal:
 //     $ NODE_ENV=development node index.js
 
-
 // Invoke 'strict' JavaScript mode
 'use strict';
+
+// process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 
 /* Load dependencies */
 var mongoose = require('./config/mongoose'),

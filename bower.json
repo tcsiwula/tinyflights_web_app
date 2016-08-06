@@ -2,8 +2,11 @@
   "name": "tinyflights",
   "version": "1.0.0",
   "dependencies": {
-    "angular": "^1.5.5",
-    "angular-route": "^1.5.5"
+    "angular": "^1.5.8",
+    "angular-simple-logger": "^0.1.7",
+    "angular-route": "^1.5.8",
+    "angular-resource": "^1.5.8",
+    "angular-bootstrap": "^2.0.1"
   },
   "description": "This app is meant to be used by Brandon & Tim.",
   "main": "server.js",
