@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+	<!-- Load local libraries -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<!-- Render AngularJS views  -->
+<!-- 	Will come back to this. Need to create a static navbar for users and content. -->
+<!-- 	<section nav-menu></section> -->
+	<section ng-view></section>
+<!-- 	<section footer></section> -->
+
+	<script type="text/javascript" src="/lib/angular/angular.js"></script>
+	<script type="text/javascript" src="/lib/angular-simple-logger/dist/angular-simple-logger.js"></script>
+<!-- 	<script type="text/javascript" src="/lib/angular-google-maps/dist/angular-google-maps.js"></script> -->
+	<script type="text/javascript" src="/lib/angular-route/angular-route.js"></script>
+	<script type="text/javascript" src="/lib/angular-resource/angular-resource.js"></script>
+<!-- 	<script type="text/javascript" src="/lib/angular-animate/angular-animate.js"></script>
+	<script type="text/javascript" src="/lib/angular-touch/angular	-touch.js"></script> -->
+	<script type="text/javascript" src="/lib/angular-bootstrap/ui-bootstrap.min.js"></script>
+	<script type="text/javascript" src="/lib/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+
+	<!-- Load the index module -->
+	<script type="text/javascript" src="/index/index.client.module.js"></script>
+	<script type="text/javascript" src="/index/controllers/index.client.controller.js"></script>
+	<script type="text/javascript" src="/index/config/index.client.routes.js"></script>
+<!-- 	<script type="text/javascript" src="/index/directives/nav.client.directive.js"></script> -->
+
+	<!-- Load the users module -->
+	<script type="text/javascript" src="/users/users.client.module.js"></script>
+	<script type="text/javascript" src="/users/services/authentication.client.service.js"></script>
+
+	<!-- Load the reservation module -->
+	<script type="text/javascript" src="/reservations/reservation.client.module.js"></script>
+	<script type="text/javascript" src="/reservations/controllers/reservation.client.controller.js"></script>
+<!-- 	<script type="text/javascript" src="/reservations/controllers/datepicker.client.controller.js"></script> -->
+		
+	<!-- Bootstrap AngularJS application -->
+	<script type="text/javascript" src="/application.js"></script>
+</body>
+</html>

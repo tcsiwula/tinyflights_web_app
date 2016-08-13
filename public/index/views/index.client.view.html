@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TinyFlights - Flight and Airline tickets marketplace</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Tinyflights.com">
+    <meta name="author" content="">
+    <link rel="icon" href="../../img/favicon.ico">
+    
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+<!--     <link href="album.css" rel="stylesheet"> -->
+</head>
+
+<body>
+    <section id="sign-in-banner" align="right">   
+        <!-- Render the OAuth authentication links  -->
+        <a href="/oauth/facebook">Sign In with Facebook</a>
+        <!--
+  Below we include the Login Button social plugin. This button uses
+  the JavaScript SDK to present a graphical Login button that triggers
+  the FB.login() function when clicked.
+-->
+
+<!-- <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+</fb:login-button> -->
+        <a href="/logout">Log Out</a>
+    </section>
+
+
+<div id="status">
+</div>
+    </section>
+    <nav class="navbar navbar-dark bg-inverse" id="nav-main">
+
+        <a class="navbar-brand" href="/">TinyFlights</a>
+
+        <ul class="nav navbar-nav pull-xs-right">
+
+            <li class="nav-item active">
+                <a class="nav-link" href="/flights">Flights<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/faq">FAQ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/blog">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/more">More</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/signin">Sign In</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="jumbotron text-xs-center">
+        <div class="container">
+            <h1 class="jumbotron-heading">Flights and Airline tickets reinvented.</h1>
+            <p class="lead text-muted">Book flights from local pilots and fly to a place like never before.</p>
+            <p>
+                <a href="#" class="btn btn-primary">Sign Up</a>
+            </p>
+        </div>
+    </section>
+
+
+    <style>
+      .typeahead-demo .custom-popup-wrapper {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 1000;
+        display: none;
+        background-color: #f9f9f9;
+      }
+
+      .typeahead-demo .custom-popup-wrapper > .message {
+        padding: 10px 20px;
+        border-bottom: 1px solid #ddd;
+        color: #868686;
+      }
+
+      .typeahead-demo .custom-popup-wrapper > .dropdown-menu {
+        position: static;
+        float: none;
+        display: block;
+        min-width: 160px;
+        background-color: transparent;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+      }
+    </style>
+    <style>
+      .full button span {
+        background-color: limegreen;
+        border-radius: 32px;
+        color: black;
+      }
+      .partially button span {
+        background-color: orange;
+        border-radius: 32px;
+        color: black;
+      }
+    </style>
+    <section id="reservation container" data-ng-controller="ReservationController">
+        <div class="row">
+            <div class="col-md-12">
+                <h4>Where to? </h4><h6>(Currently only serving Northern California)</h6>
+<!--                 <pre>Model: {{asyncSelected | json}}</pre> -->
+                <input type="text" ng-model="asyncSelected" placeholder="Loaded via $http" uib-typeahead="address for address in getLocation($viewValue)" typeahead-loading="loadingLocations" typeahead-no-results="noResults" class="form-control">
+                <i ng-show="loadingLocations" class="glyphicon glyphicon-refresh"></i>
+                <div ng-show="noResults">
+                    <i class="glyphicon glyphicon-remove"></i> No Results Found
+                </div>
+            </div>
+        </div>
+<!--         <pre>Selected date is: <em>{{dt | date:'fullDate' }}</em></pre> -->
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Departure Date</h4>
+                <p class="input-group">
+                    <input type="text" class="form-control" uib-datepicker-popup="{{format}}" ng-model="dt" is-open="popup1.opened" datepicker-options="dateOptions" ng-required="true" close-text="Close" alt-input-formats="altInputFormats" />
+                    <span class="input-group-btn">
+                        <button type="button" class="btn btn-default" ng-click="open1()"><i class="glyphicon glyphicon-calendar"></i></button>
+                  </span>
+                </p>
+            </div>
+            <div class="col-md-6">
+                <h4>Returning Date</h4>
+                <p class="input-group">
+                    <input type="text" class="form-control" uib-datepicker-popup ng-model="dt" is-open="popup2.opened" datepicker-options="dateOptions" ng-required="true" close-text="Close" />
+                    <span class="input-group-btn">
+                        <button type="button" class="btn btn-default" ng-click="open2()"><i class="glyphicon glyphicon-calendar"></i></button>
+                    </span>
+                </p>
+            </div>
+<!--             <div class="row">
+                <div class="col-md-6">
+                    <label>Format: <span class="muted-text">(manual alternate <em>{{altInputFormats[0]}}</em>)</span></label> <select class="form-control" ng-model="format" ng-options="f for f in formats"><option></option></select>
+                </div>
+            </div> -->
+
+<!--             <hr />
+            <button type="button" class="btn btn-sm btn-info" ng-click="today()">Today</button>
+            <button type="button" class="btn btn-sm btn-default" ng-click="setDate(2009, 7, 24)">2009-08-24</button>
+            <button type="button" class="btn btn-sm btn-danger" ng-click="clear()">Clear</button>
+            <button type="button" class="btn btn-sm btn-default" ng-click="toggleMin()" uib-tooltip="After today restriction">Min date</button> -->
+        </div>
+    </section>
+
+<!--     <footer class="text-muted">
+        <div class="container">
+            <p class="pull-xs-right">
+                <a href="#">Back to top</a>
+            </p>
+        </div>
+    </footer> -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+    <script>
+        $(function () {
+            Holder.addTheme("thumb", { background: "#55595c", foreground: "#eceeef", text: "Thumbnail" });
+        });
+    </script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+<!--     <script type="text/javascript">
+        document.getElementById("logout").onClick = function() {
+            location.href = "https://www.facebook.com/logout.php?next=http://localhost:3000&access_token=USER_ACCESS_TOKEN";
+        }
+    </script> -->
+    </body>
+</html>

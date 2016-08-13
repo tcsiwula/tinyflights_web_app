@@ -1,0 +1,53 @@
+.outer-container {
+	overflow: hidden;
+}
+#header-container {
+	padding: 5px;
+}
+
+/* tinyflights green */
+#sign-in-sign-out a {
+	color: #5FA760;
+}
+
+#banner {
+	height: 600px;
+	background-image: url("../img/plane.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#banner-text h1 {
+	color: white;
+}
+
+#button {
+	padding: 2px;
+}
+
+#how-it-works-outer-container {
+	padding: 10px;
+}
+
+#how-it-works-inner-container {
+	background-color: lightgray;
+/*	opacity: 7px;*/
+}
+
+/*tinyflights green*/
+#how-it-works-text h2, h5 {
+	color: #5FA760; 
+}
+
+#how-it-works-options-container {
+	background-color: lightgray;
+}
+
+.option {
+/*	border: 3px solid black;*/
+	height: 400px;
+}
+
+/*.safe_img {
+	height: 100px;
+}*/
