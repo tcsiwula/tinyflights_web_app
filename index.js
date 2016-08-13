@@ -5,7 +5,9 @@
 // Invoke 'strict' JavaScript mode
 'use strict';
 
-// process.env.NODE_ENV = process.env.NODE_ENV || 'development';
+
+// this is required for heroku to run the app live
+process.env.NODE_ENV = process.env.NODE_ENV || 'production';
 
 /* Load dependencies */
 var mongoose = require('./config/mongoose'),
