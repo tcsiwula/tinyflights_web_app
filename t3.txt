@@ -1,0 +1,7 @@
+[remote "all"]
+    url = https://tcsiwula@bitbucket.org/tinyflights/tinyflights.com.git
+    url = https://github.com/tcsiwula/tinyflights_web_app.git
+[remote "bitbucket"]
+    url = https://tcsiwula@bitbucket.org/tinyflights/tinyflights.com.git
+[remote "github"]
+    url = https://github.com/tcsiwula/tinyflights_web_app.git
