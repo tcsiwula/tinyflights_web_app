@@ -12,30 +12,15 @@
 	<section ng-view></section>
 <!-- 	<section footer></section> -->
 
-	<!-- Load the Facebook SDK --> 
-<!-- 	<script>
-		window.fbAsyncInit = function() {
-	    	FB.init({
-			    appId      : '264376823943249',
-			    cookie     : true,  // enable cookies to allow the server to access 
-			                        // the session
-			    xfbml      : true,  // parse social plugins on this page
-			    version    : 'v2.5' // use graph api version 2.5
-			  });
-	    };
-
-	  // Load the SDK asynchronously
-	  (function(d, s, id) {
-	    var js, fjs = d.getElementsByTagName(s)[0];
-	    if (d.getElementById(id)) return;
-	    js = d.createElement(s); js.id = id;
-	    js.src = "//connect.facebook.net/en_US/sdk.js";
-	    fjs.parentNode.insertBefore(js, fjs);
-	  }(document, 'script', 'facebook-jssdk'));
-	</script> -->
-
 	<script type="text/javascript" src="/lib/angular/angular.js"></script>
+	<script type="text/javascript" src="/lib/angular-simple-logger/dist/angular-simple-logger.js"></script>
+<!-- 	<script type="text/javascript" src="/lib/angular-google-maps/dist/angular-google-maps.js"></script> -->
 	<script type="text/javascript" src="/lib/angular-route/angular-route.js"></script>
+	<script type="text/javascript" src="/lib/angular-resource/angular-resource.js"></script>
+<!-- 	<script type="text/javascript" src="/lib/angular-animate/angular-animate.js"></script>
+	<script type="text/javascript" src="/lib/angular-touch/angular	-touch.js"></script> -->
+	<script type="text/javascript" src="/lib/angular-bootstrap/ui-bootstrap.min.js"></script>
+	<script type="text/javascript" src="/lib/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
 
 	<!-- Load the index module -->
 	<script type="text/javascript" src="/index/index.client.module.js"></script>
@@ -46,6 +31,11 @@
 	<!-- Load the users module -->
 	<script type="text/javascript" src="/users/users.client.module.js"></script>
 	<script type="text/javascript" src="/users/services/authentication.client.service.js"></script>
+
+	<!-- Load the reservation module -->
+	<script type="text/javascript" src="/reservations/reservation.client.module.js"></script>
+	<script type="text/javascript" src="/reservations/controllers/reservation.client.controller.js"></script>
+<!-- 	<script type="text/javascript" src="/reservations/controllers/datepicker.client.controller.js"></script> -->
 		
 	<!-- Bootstrap AngularJS application -->
 	<script type="text/javascript" src="/application.js"></script>

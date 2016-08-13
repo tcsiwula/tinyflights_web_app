@@ -2,10 +2,10 @@
 'use strict';
 
 // Set the main application name
-var mainApplicationModuleName = 'autos';
+var mainApplicationModuleName = 'tinyflights';
 
 // Create the main application
-var mainApplicationModule = angular.module(mainApplicationModuleName, ['ngRoute', 'index', 'users']);
+var mainApplicationModule = angular.module(mainApplicationModuleName, ['ngRoute', 'reservation', 'users', 'index']);
 
 // Configure the hashbang URLs using the $locationProvider services 
 mainApplicationModule.config(['$locationProvider',
