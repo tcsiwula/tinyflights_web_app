@@ -34,13 +34,13 @@
   window.fbAsyncInit = function() {
   FB.init({
     appId      : '264376823943249',
-    cookie     : true,  // enable cookies to allow the server to access 
+    cookie     : true,  // enable cookies to allow the server to access
                         // the session
     xfbml      : true,  // parse social plugins on this page
     version    : 'v2.5' // use graph api version 2.5
   });
 
-  // Now that we've initialized the JavaScript SDK, we call 
+  // Now that we've initialized the JavaScript SDK, we call
   // FB.getLoginStatus().  This function gets the state of the
   // person visiting this page and can return one of three states to
   // the callback you provide.  They can be:
@@ -70,11 +70,11 @@
   // Here we run a very simple test of the Graph API after login is
   // successful.  See statusChangeCallback() for when this call is made.
   function testAPI() {
-    console.log('Welcome!  Fetching your information.... ');
-    FB.api('/me', function(response) {
-      console.log('Successful login for: ' + response.name);
-      document.getElementById('status').innerHTML =
-        'Thanks for logging in, ' + response.name + '!';
-    });
+      console.log('Welcome!  Fetching your information.... ');
+      FB.api('/me', function (response) {
+          console.log('Successful login for: ' + response.name);
+          document.getElementById('status').innerHTML =
+              'Thanks for logging in, ' + response.name + '!';
+      });
   }
 </script>
